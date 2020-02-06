@@ -1,5 +1,7 @@
 axiomatize module CLabel
 
+skip module PrimOp
+
 # definitions
 skip CLabel.pprDebugCLabel
 skip Clabel.mkPrimOpLabel
@@ -49,6 +51,6 @@ skip constructor CLabel.RtsLabel
 skip constructor CLabel.CC_Label
 skip constructor CLabel.CCS_Label
 
-skip constructor RtsLabelInfo.RtsPrimOp
+skip constructor CLabel.RtsPrimOp
 
 
