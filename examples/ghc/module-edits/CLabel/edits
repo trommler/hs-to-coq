@@ -1,6 +1,8 @@
 axiomatize module CLabel
 
+# definitions
 skip CLabel.pprDebugCLabel
+skip Clabel.mkPrimOpLabel
 skip CLabel.mkPrimCallLabel
 skip CLabel.mkCCLabel
 skip CLabel.mkCCSLabel
@@ -14,10 +16,39 @@ skip CLabel.pprCLbl
 skip CLabel.ppIdFlavor
 skip CLabel.asmTempLabelPrefix
 skip CLabel.pprDynamicLinkerAsmLabel
+skip CLabel.compare
+skip CLabel.mkRtsPrimOpLabel
+skip CLabel.mkSelectorInfoLabel
+skip CLabel.mkSelectorEntryLabel
+skip CLabel.mkApInfoTableLabel
+skip CLabel.mkApEntryLabel
+skip CLabel.mkRtsApFastLabel
+skip CLabel.mkRtsSlowFastTickyCtrLabel
+skip CLabel.toClosureLbl
+skip CLabel.toSlowEntryLbl
+skip CLabel.toEntryLbl
+skip CLabel.toInfoLbl
+skip CLabel.hasHaskellName
+skip CLabel.hasCAF
+# this requires BlockId
+skip CLabel.maybeLocalBlockLabel
+# need IdInfo
+skip CLabel.mkLocalClosureLabel
+skip CLabel.mkLocalInfoTableLabel
+skip CLabel.mkLocalClosureTableLabel
+skip CLabel.mkClosureLabel
+skip CLabel.mkInfoTableLabel
+skip CLabel.mkEntryLabel
+skip CLabel.mkClosureTableLabel
+skip CLabel.mkConInfoTableLabel
+skip CLabel.mkBlockInfoTableLabel
 
 # constructors
 skip constructor CLabel.IdLabel
-skip constructor RtsLabel
-skip constructor CC_Label
-skip constructor CCS_Label
+skip constructor CLabel.RtsLabel
+skip constructor CLabel.CC_Label
+skip constructor CLabel.CCS_Label
+
+skip constructor RtsLabelInfo.RtsPrimOp
+
 
