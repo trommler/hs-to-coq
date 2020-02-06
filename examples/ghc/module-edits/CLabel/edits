@@ -1,0 +1,21 @@
+axiomatize module CLabel
+
+skip CLabel.pprDebugCLabel
+skip CLabel.mkPrimCallLabel
+skip CLabel.mkCCLabel
+skip CLabel.mkCCSLabel
+skip CLabel.needsCDecl
+skip CLabel.externallyVisibleCLabel
+skip CLabel.labelType
+skip CLabel.labelDynamic
+skip CLabel.pprCLabel
+skip CLabel.pprAsmCLbl
+skip CLabel.pprCLbl
+skip CLabel.ppIdFlavor
+
+# constructors
+skip constructor CLabel.IdLabel
+skip constructor RtsLabel
+skip constructor CC_Label
+skip constructor CCS_Label
+

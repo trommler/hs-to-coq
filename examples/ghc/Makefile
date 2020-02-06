@@ -68,6 +68,8 @@ DATASTRUCTS = \
 MODULES = \
   $(UTILS) \
   $(DATASTRUCTS) \
+  CmmType \
+  CLabel \
 
 ## Not actually used??
 #  CmmType \
