@@ -12,6 +12,8 @@ skip CLabel.pprCLabel
 skip CLabel.pprAsmCLbl
 skip CLabel.pprCLbl
 skip CLabel.ppIdFlavor
+skip CLabel.asmTempLabelPrefix
+skip CLabel.pprDynamicLinkerAsmLabel
 
 # constructors
 skip constructor CLabel.IdLabel
